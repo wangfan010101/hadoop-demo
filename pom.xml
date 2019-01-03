@@ -39,13 +39,14 @@
                     <execution>
                         <id>make-assembly</id>
                         <phase>package</phase>
+                        <goals>
+                            <goal>
+                                single
+                            </goal>
+                        </goals>
                     </execution>
                 </executions>
-                <goals>
-                    <goal>
-                        single
-                    </goal>
-                </goals>
+
             </plugin>
         </plugins>
     </build>
